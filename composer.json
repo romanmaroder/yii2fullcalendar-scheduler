@@ -1,11 +1,11 @@
 {
-	"name": "romanmaroder/yii2fullcalendar-scheduler",
+	"name": "romanmaroder/yii2fullcalendar6",
 	"description": "Yii2 fullcalendar Widgets",
 	"keywords": ["yii2", "fullcalendar","widget"],
 	"type": "yii2-extension",
 	"license": "MIT",
 	"support": {
-		"source": "https://github.com/romanmaroder/yii2fullcalendar-scheduler"
+		"source": "https://github.com/romanmaroder/yii2fullcalenda6"
 	},
 	"require": {
 		"npm-asset/fullcalendar-scheduler":"*"
@@ -29,6 +29,6 @@
         	}
     	],
 	"autoload": {
-		"psr-4": { "yii2fullcalendar-scheduler\\": "" }
+		"psr-4": { "yii2fullcalendar6\\": "" }
 	}
 }
