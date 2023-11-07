@@ -4,7 +4,7 @@
  * This class is used to embed FullCalendar Plugin to my Yii2 Projects
  */
 
-namespace yii2fullcalendar;
+namespace yii2fullcalendarScheduler;
 
 use yii\base\Widget as elWidget;
 use yii\helpers\Html;
@@ -12,7 +12,7 @@ use yii\helpers\Json;
 use yii\web\JsExpression;
 use yii\web\View;
 
-class yii2fullcalendar extends elWidget
+class yii2fullcalendarScheduler extends elWidget
 {
 
     /**
