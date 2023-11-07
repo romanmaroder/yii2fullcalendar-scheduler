@@ -1,0 +1,34 @@
+{
+	"name": "romanmaroder/yii2fullcalendarScheduler",
+	"description": "Yii2 fullcalendar Widgets",
+	"keywords": ["yii2", "fullcalendar","widget"],
+	"type": "yii2-extension",
+	"license": "MIT",
+	"support": {
+		"source": "https://github.com/romanmaroder/yii2fullcalendarScheduler"
+	},
+	"require": {
+		"npm-asset/fullcalendar-scheduler":"*"
+	},
+	"require-dev": {
+		"codeception/codeception": "*"
+	},
+	"config": {
+        "allow-plugins": {
+            "yiisoft/yii2-composer" : true
+        },
+        "process-timeout": 1800,
+        "fxp-asset": {
+            "enabled": false
+        	}
+    	},
+    	"repositories": [
+        	{
+            	"type": "composer",
+           	 "url": "https://asset-packagist.org"
+        	}
+    	],
+	"autoload": {
+		"psr-4": { "yii2fullcalendarScheduler\\": "" }
+	}
+}
