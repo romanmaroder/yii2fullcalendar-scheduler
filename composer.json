@@ -5,7 +5,7 @@
 	"type": "yii2-extension",
 	"license": "MIT",
 	"support": {
-		"source": "https://github.com/romanmaroder/yii2fullcalenda6"
+		"source": "https://github.com/romanmaroder/yii2fullcalendar6"
 	},
 	"require": {
 		"npm-asset/fullcalendar-scheduler":"*"
