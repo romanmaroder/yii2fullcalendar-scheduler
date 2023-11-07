@@ -1,6 +1,6 @@
 <?php
 
-namespace yii2fullcalendarScheduler;
+namespace yii2fullcalendar6;
 
 use Yii;
 use yii\web\AssetBundle;
