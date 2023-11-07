@@ -1,6 +1,6 @@
 <?php
 
-namespace yii2fullcalendarScheduler\models;
+namespace yii2fullcalendar6\models;
 
 use yii\base\Model;
 
