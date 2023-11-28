@@ -52,11 +52,20 @@ class yii2fullcalendar6 extends elWidget
 
     /**
      * Holds an array of Event Objects
-     * @var array events of yii2fullcalendar\models\Event
+     * @var array events of yii2fullcalendar6\models\Event
      * @todo add the event class and write docs
      **/
     public $events = [];
-
+	
+     /**
+     * A way to specify multiple event sources.
+     * This option is used instead of the events option.
+     * You can put any number of event arrays, functions, JSON feed URLs, or full-out Event Source Objects into the eventSources array.
+     * @var array eventSources of yii2fullcalendar6\models\Event
+     * @todo add the event class and write docs
+     **/
+    public $eventSources =[];
+	
     /**
      * Add custom buttons to the calendar header
      * @var array customButtons
@@ -345,6 +354,9 @@ class yii2fullcalendar6 extends elWidget
 
         if (is_array($this->events) || is_string($this->events)) {
             $options['events'] = $this->events;
+        }
+	if (is_array($this->eventSources) || is_string($this->eventSources)) {
+            $options['eventSources']= $this->eventSources;
         }
 
         $options = array_merge($options, $this->clientOptions);
